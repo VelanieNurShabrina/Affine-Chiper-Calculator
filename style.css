@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8BBD0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #EEF5FF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cute-image {
+    width: 125px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+}
+
+.input-group,
+.key-group,
+.button-group,
+.output-group {
+    margin-bottom: 20px;
+}
+
+textarea, input, button {
+    width: 100%; /* Lebar penuh */
+    padding: 10px;
+    box-sizing: border-box; /* Tambahkan ini untuk memastikan padding tidak mempengaruhi lebar */
+}
+
+.button-group button {
+    margin-right: 10px; /* Jarak antara tombol Encrypt dan Decrypt */
+}

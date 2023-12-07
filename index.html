@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Affine Cipher Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/cutee.jpg" alt="Cute Image" class="cute-image">
+        <h1 style="color: #7945d4;">Affine Cipher Calculator</h1>
+
+        <div class="input-group">
+            <label for="inputText" style="color: #12a193;">✨ Magical Input ✨:</label>
+            <textarea id="inputText" rows="4" placeholder="Enter your secret message..."></textarea>
+        </div>
+
+        <div class="key-group">
+            <label for="keyA" style="color: #3F51B5;">🚀 Launch the Rocket (Key A):</label>
+            <input type="number" id="keyA" placeholder="Enter a magical number">
+        </div>
+
+        <div class="key-group">
+            <label for="keyB" style="color: #E91E63;">🔑 Secret Key (Key B):</label>
+            <input type="number" id="keyB" placeholder="Enter another magical number">
+        </div>
+
+        <div class="button-group">
+            <button onclick="encrypt()" style="background-color: #ddb3f1; color: #000;">Encrypt 🔐</button>
+            <br><br>
+            <button onclick="decrypt()" style="background-color: #9af0f0; color: #000;">Decrypt 🔓</button>
+        </div>
+
+        <div class="output-group">
+            <label for="outputText" style="color: #E91E63;">✨ Enchanted Output ✨:</label>
+            <textarea id="outputText" rows="4" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
